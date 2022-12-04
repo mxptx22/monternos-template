@@ -9,7 +9,8 @@
 
 @font-face {
   font-family: "PTSans-Regular";
-  src: url("./Fonts/PTSans-Regular.ttf") format("truetype");
+  src: local("PTSans-Regular"),
+    url("./Fonts/PTSans-Regular.ttf") format("truetype");
   font-weight: normal;
 }
 
@@ -282,9 +283,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--main-bg-color);
-  font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
+  font-family: "PTSans-Regular", "PT Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--text-color);
