@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/monternos-template/static/css/main.ae1f60f8.css",
-    "main.js": "/monternos-template/static/js/main.cad08648.js",
+    "main.css": "/monternos-template/static/css/main.ce54caa8.css",
+    "main.js": "/monternos-template/static/js/main.42fc3221.js",
     "static/media/Tester2.jpg": "/monternos-template/static/media/Tester2.f01d5876e55652635d74.jpg",
     "static/media/Tester1.jpg": "/monternos-template/static/media/Tester1.b5dc79a290715d0a6585.jpg",
     "static/media/PTSans-Regular.ttf": "/monternos-template/static/media/PTSans-Regular.77e92507394e2309d837.ttf",
@@ -27,11 +27,11 @@
     "static/media/copyrighticon.svg": "/monternos-template/static/media/copyrighticon.7920971e6c38c92f3a42188c06d6237a.svg",
     "static/media/githubicon.svg": "/monternos-template/static/media/githubicon.201f44d27c8a112261a9711ca3c4224e.svg",
     "static/media/css.svg": "/monternos-template/static/media/css.4231f2b59cc50d801bb0158eda6434ba.svg",
-    "main.ae1f60f8.css.map": "/monternos-template/static/css/main.ae1f60f8.css.map",
-    "main.cad08648.js.map": "/monternos-template/static/js/main.cad08648.js.map"
+    "main.ce54caa8.css.map": "/monternos-template/static/css/main.ce54caa8.css.map",
+    "main.42fc3221.js.map": "/monternos-template/static/js/main.42fc3221.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae1f60f8.css",
-    "static/js/main.cad08648.js"
+    "static/css/main.ce54caa8.css",
+    "static/js/main.42fc3221.js"
   ]
 }
