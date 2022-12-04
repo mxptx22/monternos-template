@@ -1,0 +1,36 @@
+
+.animation-container {
+    text-align: center;
+    width: 100%;
+}
+
+@keyframes rotateBackSquares {
+    from {transform: skewY(180deg);}
+    to {transform: skewY(0deg);}
+}
+@keyframes rotateForwardSquares {
+    from {transform: rotateY(-180deg);}
+    to {transform: rotateY(0deg);}
+}
+
+
+#BackSquares1 {
+    animation: rotateBackSquares 1s;
+}
+#BackSquares2 {
+    animation: rotateBackSquares 1.2s;
+}
+
+#Rectangle1Decor {
+    animation: rotateForwardSquares 1.5s;
+}
+#Rectangle2Decor {
+    animation: rotateForwardSquares 2s;
+}
+
+#Rectangle3Decor {
+    animation: rotateForwardSquares 1.5s;
+}
+#Rectangle4Decor {
+    animation: rotateForwardSquares 2s;
+}

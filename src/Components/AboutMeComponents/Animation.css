@@ -1,0 +1,61 @@
+
+.animationContainer {
+    text-align: center;
+    width: 100%;
+}
+
+#ThoseGoUp {
+    animation: goUp 5s infinite;
+
+}
+
+@keyframes goUp {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#ThoseGoDown {
+    animation: goDown 10s infinite;
+
+}
+
+@keyframes goDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(20%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#Computer {
+    animation: swaySides 2s infinite;
+}
+
+@keyframes swaySides {
+    0% {
+        transform: skewY(0deg);
+    }
+
+    50% {
+        transform: skewY(2deg);
+    }
+
+    100% {
+        transform: skewY(0deg);
+    }
+}
