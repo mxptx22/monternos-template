@@ -585,10 +585,17 @@ input.form-area-object {
   font-family: "PTSans-Regular", "PT Sans", sans-serif;
 }
 
+input {
+  font-family: "PTSans-Regular", "PT Sans", sans-serif;
+}
+
+textarea {
+  font-family: "PTSans-Regular", "PT Sans", sans-serif;
+}
+
 textarea.form-area-object {
   padding: 10px 20px;
   min-height: 25vh;
-  font-family: inherit;
   resize: none;
 }
 
@@ -596,6 +603,7 @@ textarea.form-area-object {
   color: var(--accent-color-one);
   text-transform: uppercase;
   font-size: 0.7em;
+  font-family: "PTSans-Regular", "PT Sans", sans-serif;
 }
 
 button.form-area-object {
@@ -614,7 +622,7 @@ button.form-area-object {
   transition: all 0.5s;
   fill: var(--accent-color-three);
   cursor: pointer;
-  font-family: "PTSans-Regular", "PT Sans";
+  font-family: "PT Sans";
 }
 
 button.form-area-object:hover {
