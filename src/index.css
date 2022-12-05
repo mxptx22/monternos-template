@@ -582,7 +582,7 @@ h2.accentuated-text-2 {
 
 input.form-area-object {
   padding: 10px 20px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PTSans-Regular", "PT Sans", sans-serif;
 }
 
 textarea.form-area-object {
@@ -614,7 +614,7 @@ button.form-area-object {
   transition: all 0.5s;
   fill: var(--accent-color-three);
   cursor: pointer;
-  font-family: "PT Sans";
+  font-family: "PTSans-Regular", "PT Sans";
 }
 
 button.form-area-object:hover {
