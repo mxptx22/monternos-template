@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/monternos-template/static/css/main.6930bcca.css",
+    "main.css": "/monternos-template/static/css/main.9827e096.css",
     "main.js": "/monternos-template/static/js/main.42fc3221.js",
     "static/media/Tester2.jpg": "/monternos-template/static/media/Tester2.f01d5876e55652635d74.jpg",
     "static/media/Tester1.jpg": "/monternos-template/static/media/Tester1.b5dc79a290715d0a6585.jpg",
+    "static/media/PTSans-Bold.ttf": "/monternos-template/static/media/PTSans-Bold.610bc32a7e32c292ce59.ttf",
     "static/media/PTSans-Regular.ttf": "/monternos-template/static/media/PTSans-Regular.77e92507394e2309d837.ttf",
+    "static/media/PTSans-Italic.ttf": "/monternos-template/static/media/PTSans-Italic.4faac24b7809d950b77e.ttf",
+    "static/media/PTSans-BoldItalic.ttf": "/monternos-template/static/media/PTSans-BoldItalic.9432b29338612af7eca9.ttf",
     "static/media/react.svg": "/monternos-template/static/media/react.ae63a757d180c9edc815d7fd44fc9ac0.svg",
     "static/media/school.svg": "/monternos-template/static/media/school.d5fc44f1e66051088c3ceb4d0800fbd7.svg",
     "static/media/myavatar.svg": "/monternos-template/static/media/myavatar.8f050939c1ba587b1cd9905a5ffd0806.svg",
@@ -27,11 +30,11 @@
     "static/media/copyrighticon.svg": "/monternos-template/static/media/copyrighticon.7920971e6c38c92f3a42188c06d6237a.svg",
     "static/media/githubicon.svg": "/monternos-template/static/media/githubicon.201f44d27c8a112261a9711ca3c4224e.svg",
     "static/media/css.svg": "/monternos-template/static/media/css.4231f2b59cc50d801bb0158eda6434ba.svg",
-    "main.6930bcca.css.map": "/monternos-template/static/css/main.6930bcca.css.map",
+    "main.9827e096.css.map": "/monternos-template/static/css/main.9827e096.css.map",
     "main.42fc3221.js.map": "/monternos-template/static/js/main.42fc3221.js.map"
   },
   "entrypoints": [
-    "static/css/main.6930bcca.css",
+    "static/css/main.9827e096.css",
     "static/js/main.42fc3221.js"
   ]
 }
