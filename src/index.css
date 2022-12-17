@@ -8,10 +8,28 @@
 }
 
 @font-face {
-  font-family: "PTSans-Regular";
-  src: local("PTSans-Regular"),
-    url("./Fonts/PTSans-Regular.ttf") format("truetype");
+  font-family: "PT Sans";
+  src: url("./Fonts/PTSans-Regular.ttf");
   font-weight: normal;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("./Fonts/PTSans-Italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url("./Fonts/PTSans-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("./Fonts/PTSans-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
 }
 
 html {
@@ -283,9 +301,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--main-bg-color);
-  font-family: "PTSans-Regular", "PT Sans", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--text-color);
@@ -582,15 +600,15 @@ h2.accentuated-text-2 {
 
 input.form-area-object {
   padding: 10px 20px;
-  font-family: "PTSans-Regular", "PT Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 input {
-  font-family: "PTSans-Regular", "PT Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 textarea {
-  font-family: "PTSans-Regular", "PT Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 textarea.form-area-object {
@@ -603,7 +621,7 @@ textarea.form-area-object {
   color: var(--accent-color-one);
   text-transform: uppercase;
   font-size: 0.7em;
-  font-family: "PTSans-Regular", "PT Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 button.form-area-object {
